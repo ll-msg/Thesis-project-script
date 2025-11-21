@@ -31,10 +31,10 @@ Each test in this script contains the following main steps:
 ```python
 pytest path-to-graphicalViewTest
 ```
-Please notice that this test is required to be run inside the original MGT root folder.
+Please note that this test is required to be run inside the original MGT root folder.
 
 ## [tests_cCmerge](https://github.com/ll-msg/Thesis-project-script/blob/main/tests_cCmerge.py)
-A Django unit test script that can be used to validate the optimized clonal complex merging method in [MGTdb](https://www.mgtdb.unsw.edu.au/), specifically for the Typhimurium database. The test database used in this script is constructed automatically by Django.
+A Django unit test script that can be used to validate the optimized clonal complex merging method in [MGTdb](https://www.mgtdb.unsw.edu.au/). The test database (Typhimurium) used in this script is constructed automatically by Django.
 
 Each test in this script contains the following main steps:
 
@@ -45,4 +45,4 @@ Each test in this script contains the following main steps:
 ```python
 python manage.py test path-to-ccMergeTest --settings=path-to-settings
 ```
-Please notice that this test is required to be run inside the original MGT root folder.
+Please note that this test is required to be run inside the original MGT root folder.
